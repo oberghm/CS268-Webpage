@@ -89,7 +89,7 @@ nav .fa{
 }
 
 
-@media(max-width: 700px)
+@media(max-width: 800px)
 {
    .nav-links ul li
     {
@@ -129,6 +129,9 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
+.portfolio h3{
+    text-decoration: underline;
 }
 .portfolio-col{
     flex-basis: 32%;
@@ -175,7 +178,66 @@ nav .fa{
     justify-content: space-between;  
     flex-wrap: wrap;
 }
+.image-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.image-container img{
+    width: 25%;
+    height: 25%;
+}
+.image-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px; 
+}
+.image-container2 img{
+    width: 50%;
+    height: 50%;
+}
 
+@media (max-width: 800px){
+
+    .image-container{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px; 
+    }
+
+    .image-container img{
+        width:50%;
+        height:50%
+    }
+}
+
+/* personal work page */
+.personalwork{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.personalwork h3{
+    text-decoration: underline;
+}
+.personal-col{
+    flex-basis: 45%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.personal-col img{
+    width: 100%;
+}
+.zodiac{
+    text-align: center;
+    margin: 25px;
+}
 
 /*-------- Contact Home Page ----------*/
 
@@ -196,7 +258,7 @@ nav .fa{
     padding: 0; 
 }
 
-@media(max-width:700px){
+@media(max-width:800px){
     .contact h1{
         font-size: 24px;
     }
@@ -339,7 +401,10 @@ nav .fa{
     padding: 8px;
     box-sizing: border-box;
 }
-
+.blog-right a{
+    color:black;
+    font-size: 16px;
+}
 .comment-box{
     border: 1px solid #ccc;
     margin: 50px 0;
@@ -363,7 +428,7 @@ nav .fa{
 }
 
 
-@media (max-width:700px){
+@media (max-width:800px){
     .sub-header h1{
         font-size: 24px;
     }
@@ -429,15 +494,3 @@ nav .fa{
 .faq-body{
     font-size: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
