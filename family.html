@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>molcurphotos</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">molcurphotos</a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="personalwork.html">PERSONAL WORK</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="FAQs.html">FAQs</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>Business/Headshots</h1>
+    </section>
+    <section>
+        <div class="image-container2">
+            <img src="images/family1.jpg">
+            <img src="images/family2.jpg">
+            <img src="images/family3.jpg">
+            <img src="images/family4.jpg">
+        </div>
+    </section>
+<!-------- footer ---------->
+
+<section class="footer">
+    <a href="about.html" class="hero-btn red-btn">Book Now</a>
+        <div class="icons">
+            <a href="https://www.facebook.com/molcurphotos/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/molcurphotos"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/molcurphotos/?hl=en"><i class="fa fa-instagram"></i></a>
+            
+        </div>
+        <a href="https://www.instagram.com/molcurphotos/?hl=en" class="footer-link"><p>made with <i class="fa fa-heart-o"></i> by Hallie Oberg, Justin, and Spencer</p></a>
+</section> 
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
